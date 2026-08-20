@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /blog/archive
+Disallow: /markdown-page
+Disallow: /search
+Disallow: /tags
+Sitemap: scrapmechanicmaps.com/sitemap.xml

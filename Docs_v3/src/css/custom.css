@@ -1,0 +1,65 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+
+
+/*Setup colors*/
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #ffa000;
+  --ifm-color-primary-dark: #e69000;
+  --ifm-color-primary-darker: #d98800;
+  --ifm-color-primary-darkest: #b37000;
+  --ifm-color-primary-light: #ffa91a;
+  --ifm-color-primary-lighter: #ffae26;
+  --ifm-color-primary-lightest: #ffbc4d;
+}
+
+[data-theme='light'] {
+  --ifm-color-primary: #ffa000;
+  --ifm-color-primary-dark: #e69000;
+  --ifm-color-primary-darker: #d98800;
+  --ifm-color-primary-darkest: #b37000;
+  --ifm-color-primary-light: #ffa91a;
+  --ifm-color-primary-lighter: #ffae26;
+  --ifm-color-primary-lightest: #ffbc4d;
+}
+
+mark {
+	background-color: #df7f00;
+	color: #fff;
+}
+
+span.hitTitle_vyVt mark {
+	color: #ffffff;
+	background-color: #00000000
+}
+
+
+/*Make sidebar items a bit smaller*/
+.menu__list .menu__list .menu__list .menu__link {
+    padding-block: 0.2rem;
+}
+
+.theme-doc-markdown a {
+	font-weight: var(--ifm-font-weight-bold);
+}
+
+h4 {
+	font-size: 120%;
+}

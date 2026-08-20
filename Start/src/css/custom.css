@@ -1,0 +1,129 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: rgb(33, 175, 144);
+  --ifm-color-primary-darker: rgb(31, 165, 136);
+  --ifm-color-primary-darkest: rgb(26, 136, 112);
+  --ifm-color-primary-light: rgb(70, 203, 174);
+  --ifm-color-primary-lighter: rgb(102, 212, 189);
+  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-code-font-size: 95%;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #ffa000;
+  --ifm-color-primary-dark: #e69000;
+  --ifm-color-primary-darker: #d98800;
+  --ifm-color-primary-darkest: #b37000;
+  --ifm-color-primary-light: #ffa91a;
+  --ifm-color-primary-lighter: #ffae26;
+  --ifm-color-primary-lightest: #ffbc4d;
+}
+
+
+
+.tools-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+.tool-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  min-width: 350px;
+  max-width: 350px;
+  flex: 1 1 300px;
+  background-color: rgba(60, 60, 60, 0.5);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: border-color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+
+.tool-card:hover {
+	border-color: #ffa000;
+}
+
+.tool-card a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+}
+
+.tool-card img {
+  width: 60px;
+  height: auto;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.tool-card .pagination-nav__label {
+  font-size: 1.1rem;
+  text-align: left;
+  color: var(--ifm-link-color);
+}
+
+.news-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+.news-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  padding-bottom: 0.1rem;
+  min-width: 350px;
+  max-width: 350px;
+  flex: 1 1 300px;
+  background-color: rgba(60, 60, 60, 0.5);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: border-color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+}
+
+.news-card hr {
+	margin-top: 0.5rem;
+	margin-bottom: 0.3rem;
+}
+
+.news-card h3 {
+	color: rgb(223, 127, 0)
+}
+
+.news-card strong {
+	color: rgb(223, 127, 0)
+}
